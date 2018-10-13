@@ -1,0 +1,16 @@
+<manifest
+  xmlns:ml="magicleap"
+  ml:package="com.company.hellocubedemo"
+  ml:version_code="1"
+  ml:version_name="1.0">
+  <application
+    ml:visible_name="HelloCubeDemo"
+    ml:sdk_version="1.0">
+    <component
+      ml:name=".hellocubedemo.universe"
+      ml:visible_name="HelloCubeDemo"
+      ml:binary_name="bin/HelloCubeDemo"
+      ml:type="Universe">
+    </component>
+  </application>
+</manifest>

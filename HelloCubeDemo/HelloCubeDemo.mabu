@@ -1,0 +1,7 @@
+INCS = inc/
+KIND = program
+SRCS = \
+	src/HelloCubeDemo.cpp \
+	src/main.cpp
+
+USES = lumin_runtime

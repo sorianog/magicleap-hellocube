@@ -9,9 +9,13 @@
 // %COPYRIGHT_END%
 // ---------------------------------------------------------------------
 // %BANNER_END%
+#include <HelloCubeDemo.h>
 
-#include "HelloCube-Demo.h"
+#include <ml_logging.h>
 
-int main() {
-	printf("Hello World!\n");
+int main(int argc, char **argv)
+{
+  ML_LOG(Debug, "HelloCubeDemo Starting.");
+  HelloCubeDemo myApp;
+  return myApp.run();
 }

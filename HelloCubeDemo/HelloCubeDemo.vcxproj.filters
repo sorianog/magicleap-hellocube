@@ -15,18 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src/HelloCube-Demo.cpp">
+    <ClCompile Include="src/HelloCubeDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src/main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="inc/HelloCube-Demo.h">
+    <ClInclude Include="inc/HelloCubeDemo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="manifest.xml" />
-    <None Include="HelloCube-Demo.mabu" />
-    <None Include="HelloCube-Demo.package" />
+    <None Include="HelloCubeDemo.mabu" />
+    <None Include="HelloCubeDemo.mlproject" />
+    <None Include="HelloCubeDemo.package" />
   </ItemGroup>
 </Project>
