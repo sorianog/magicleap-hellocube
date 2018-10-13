@@ -59,18 +59,18 @@ int HelloCubeDemo::init() {
   //  DATAS = \
   //    scenes/MY_SCENE.xml : assets/scenes/MY_SCENE.xml
   //                         \ this is the path to use below /
-  //std::string editorObjectModelName = "";
-  //if (!prism_->loadObjectModel(/* file path to .xml in scenes.comp */, editorObjectModelName)) {
-  //  ML_LOG(Error, "HelloCubeDemo Failed to load object model.");
-  //  return 1;
-  //}
+  std::string editorObjectModelName = "";
+  if (!prism_->loadObjectModel("assests/scenes/HelloCubeScene.scene.xml", editorObjectModelName)) {
+    ML_LOG(Error, "HelloCubeDemo Failed to load object model.");
+    return 1;
+  }
 
   // Add scene to this prism.
-  //Node* editorRoot = prism_->createAll(editorObjectModelName);
-  //if (!prism_->getRootNode()->addChild(editorRoot)) {
-  //  ML_LOG(Error, "HelloCubeDemo Failed to add editor scene graph to the prism.");
-  //  return 1;
-  //}
+  Node* editorRoot = prism_->createAll(editorObjectModelName);
+  if (!prism_->getRootNode()->addChild(editorRoot)) {
+    ML_LOG(Error, "HelloCubeDemo Failed to add editor scene graph to the prism.");
+    return 1;
+  }
 
   // Place your initialization here.
 

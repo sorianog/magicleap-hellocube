@@ -1,0 +1,18 @@
+[
+ {
+  "dest": "lr_resource_locator",
+  "src": "C:/Users/soria/MagicLeap/mlsdk/v0.17.0/.metadata/components/lr_resource_locator"
+ },
+ {
+  "dest": "assets/Cube_P.FBX/9-4c60-afb8-b1d401eed73f/Cube_P.FBX",
+  "src": "D:/Development/XR/MagicLeap/HelloCubeDemo/HelloCubeDemo/pipeline/cache/assets/Cube_P.FBX/9-4c60-afb8-b1d401eed73f/Cube_P.FBX"
+ },
+ {
+  "dest": "assets/scenes/scenes/HelloCubeScene.scene.res.xml",
+  "src": "D:/Development/XR/MagicLeap/HelloCubeDemo/HelloCubeDemo/scenes/HelloCubeScene.scene.res.xml"
+ },
+ {
+  "dest": "assets/scenes/scenes/HelloCubeScene.scene.xml",
+  "src": "D:/Development/XR/MagicLeap/HelloCubeDemo/HelloCubeDemo/scenes/HelloCubeScene.scene.xml"
+ }
+]

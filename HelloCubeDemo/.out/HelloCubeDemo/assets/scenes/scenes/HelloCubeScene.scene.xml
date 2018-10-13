@@ -1,0 +1,4 @@
+<ObjectModel name="HelloCubeScene" version="1">
+    <TransformNode/>
+    <ModelNode castShadow="false" name="cube" pos="0.000000, -0.250000, 0.500000" receiveShadow="false" res="assets/Cube_P.FBX/9-4c60-afb8-b1d401eed73f/Cube_P.FBX" scale="0.500000, 0.500000, 0.500000"/>
+</ObjectModel>
