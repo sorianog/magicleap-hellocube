@@ -1,0 +1,23 @@
+{
+  "id": "4fb8ddeb-9a49-4c60-afb8-b1d401eed73f",
+  "processor": "lap/types/processor/model_from_fbx",
+  "input": {
+    "model": [
+      {
+        "path": "SourceArt/Models/Primitives/Cube_P.FBX",
+        "sha256": ""
+      }
+    ]
+  },
+  "output": {
+    "model": [
+      {
+        "path": "9-4c60-afb8-b1d401eed73f/Cube_P.FBX",
+        "sha256": ""
+      }
+    ]
+  },
+  "options": [
+    
+  ]
+}

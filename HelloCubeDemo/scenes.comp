@@ -1,0 +1,3 @@
+DATAS = \
+	scenes/HelloCubeScene.scene.res.xml : assets/scenes/scenes/HelloCubeScene.scene.res.xml \
+	scenes/HelloCubeScene.scene.xml : assets/scenes/scenes/HelloCubeScene.scene.xml

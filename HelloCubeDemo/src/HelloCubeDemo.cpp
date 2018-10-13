@@ -48,10 +48,10 @@ int HelloCubeDemo::init() {
   //  DATAS = \
   //    scenes/MY_SCENE.res.xml : assets/scenes/MY_SCENE.res.xml
   //                             \ this is the path to use below /
-  //if (!prism_->loadResourceModel(/* file path to .res.xml in scenes.comp */)) {
-  //  ML_LOG(Error, "HelloCubeDemo Failed to load resources.");
-  //  return 1;
-  //}
+  if (!prism_->loadResourceModel("assests/scenes/HelloCubeScene.scene.res.xml")) {
+    ML_LOG(Error, "HelloCubeDemo Failed to load resources.");
+    return 1;
+  }
 
   // Load a scene file.
   // The file path is located in the generated scenes.comp file from the editor.

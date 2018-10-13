@@ -161,7 +161,7 @@
     <NMakeCleanCommandLine>mabu $(MLProjectFile) MLSDK="$(MLSDK)" -t msvc-2017_debug -c -v VCDIR="$(VCInstallDir) $(MLExtraBuildOption)</NMakeCleanCommandLine>
     <NMakePreprocessorDefinitions>
     </NMakePreprocessorDefinitions>
-    <NMakeIncludeSearchPath>C:Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include;C:Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt;C:Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared;C:Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt;C:Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um;C:Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt;C:Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;$(MLSDK)\include;$(MLSDK)\include\runtime\app;$(MLSDK)\include\runtime\core;$(MLSDK)\include\runtime\external;$(MLSDK)\include\runtime\intergen;$(MLSDK)\include\runtime\uikit;$(MLSDK)\include\runtime\util;$(ProjectDir)\inc</NMakeIncludeSearchPath>
+    <NMakeIncludeSearchPath>C:Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726\include;C:Program Files (x86)\Windows Kits\10\include\10.0.17134.0\cppwinrt;C:Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared;C:Program Files (x86)\Windows Kits\10\include\10.0.17134.0\ucrt;C:Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um;C:Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt;C:Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Users\soria\MagicLeap\mlsdk\v0.17.0\include;C:\Users\soria\MagicLeap\mlsdk\v0.17.0\include\runtime\app;C:\Users\soria\MagicLeap\mlsdk\v0.17.0\include\runtime\core;C:\Users\soria\MagicLeap\mlsdk\v0.17.0\include\runtime\external;C:\Users\soria\MagicLeap\mlsdk\v0.17.0\include\runtime\intergen;C:\Users\soria\MagicLeap\mlsdk\v0.17.0\include\runtime\uikit;C:\Users\soria\MagicLeap\mlsdk\v0.17.0\include\runtime\util;D:\Development\XR\MagicLeap\HelloCubeDemo\HelloCubeDemo\inc</NMakeIncludeSearchPath>
     <PackageFile>.out/HelloCubeDemo/HelloCubeDemo.mpk</PackageFile>
     <IntDir>.out\debug_win_msvc-2017_x64</IntDir>
     <OutDir>$(ProjectDir)\$(IntDir)</OutDir>
@@ -220,7 +220,7 @@
   </ItemGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties MLProjectMabuSyncTime="131839153058894475 (10/13/2018 2:41:45 PM UTC)" />
+      <UserProperties MLProjectMabuSyncTime="131839154613647819 (10/13/2018 2:44:21 PM UTC)" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

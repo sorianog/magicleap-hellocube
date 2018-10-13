@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?>
+<design:rootNode xmlns:design="http://www.magicleap.com/uidesigner/rcp/document/design" name="root" nodeTypeId="lumin.root" modelId="lumin" version="1.8.0">
+  <property id="name" value="root"/>
+  <node name="cube" nodeTypeId="lumin.model">
+    <property id="materialAndModel">
+      <property id="model" value="38e85025-ae4a-4159-8b93-f6d4d8bf9131"/>
+    </property>
+    <property id="name" value="cube"/>
+    <property id="position">
+      <property id="y" value="-0.25"/>
+      <property id="z" value="0.5"/>
+    </property>
+    <property id="rotation"/>
+    <property id="scale">
+      <property id="x" value="0.5"/>
+      <property id="y" value="0.5"/>
+      <property id="z" value="0.5"/>
+    </property>
+    <property id="shader" value="UnlitTextured"/>
+    <property id="textures"/>
+  </node>
+</design:rootNode>

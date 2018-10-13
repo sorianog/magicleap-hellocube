@@ -1,1 +1,5 @@
-ProjectPlaceholder
+<?xml version="1.0" encoding="ASCII"?>
+<mlproject:mlproject xmlns:mlproject="http://www.magicleap.com/uidesigner/mlproject" generated="false">
+  <designFile path="scenes/HelloCubeScene.design"/>
+  <pipelineDirectory path="pipeline"/>
+</mlproject:mlproject>
